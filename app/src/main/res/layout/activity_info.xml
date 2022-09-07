@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Info"
+    android:background="#FFFDDE">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developed By:"
+        android:textSize="39dp"
+        android:textColor="#21325E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.161"
+        android:fontFamily="@font/acme"
+
+        />
+
+    <TextView
+        android:id="@+id/alwin"
+        android:layout_width="150dp"
+        android:layout_height="43dp"
+        android:drawableLeft="@drawable/instagram"
+        android:fontFamily="@font/allan"
+        android:text="Alwin"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.337"
+
+
+        />
+
+    <TextView
+        android:id="@+id/mansoor"
+        android:layout_width="158dp"
+        android:layout_height="41dp"
+        android:text="Mansoor"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alwin"
+        app:layout_constraintVertical_bias="0.137"
+        android:textAlignment="center"
+        android:fontFamily="@font/allan"
+        android:drawableRight="@drawable/instagram"
+
+        />
+
+    <TextView
+        android:id="@+id/vamsi"
+        android:layout_width="157dp"
+        android:layout_height="49dp"
+        android:drawableLeft="@drawable/instagram"
+        android:fontFamily="@font/allan"
+        android:text="Vamsi"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mansoor"
+        app:layout_constraintVertical_bias="0.19" />
+
+    <TextView
+        android:id="@+id/criswin"
+        android:layout_width="158dp"
+        android:layout_height="41dp"
+        android:drawableRight="@drawable/instagram"
+        android:fontFamily="@font/allan"
+        android:text="Criswin"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vamsi"
+
+        app:layout_constraintVertical_bias="0.258" />
+
+
+    app:layout_constraintVertical_bias="0.183" />
+</androidx.constraintlayout.widget.ConstraintLayout>

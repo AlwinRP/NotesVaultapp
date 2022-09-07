@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profileback"
+    tools:context="notes">
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/createnote"
+        android:layout_width="241dp"
+        android:layout_height="208dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="37dp"
+        android:background="@color/white"
+        android:src="@drawable/ic_baseline_add_circle_24"
+        app:backgroundTint="#21325E"
+
+        app:maxImageSize="40dp">
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/noteview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/profileback" />
+
+
+</RelativeLayout>
+
